@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand logo m-0">Spider-Man Movies</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex text-center">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-filme" class="nav-link">
+                            <i class="bi bi-camera-video me-1"></i>
+                            Sobre o filme
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#outros_filmes" class="nav-link">
+                            <i class="bi bi-folder-plus me-1"></i>
+                            Filmes do Spider Man
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-o-filme">
+            <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide1.jpg" alt="foto spiderman">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide2.jpg" alt="foto spiderman">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide3.jpg" alt="foto spiderman">
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/filme.jpg" class="d-block w-100 rounded" alt="filme">
+                        </div>
+                        <div class="col-md-7 mt-4 color-white">
+                            <h2 class="section-title ">Sobre o <b class="color-2">Spider-Man No Way Home</b></h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, explicabo aliquid tempora expedita voluptates molestiae nulla reprehenderit repellat vel fugit delectus provident reiciendis enim harum labore a atque ad non.
+                            </p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus hic, asperiores dolorem temporibus corporis, repellendus nam nesciunt illum provident beatae eum id vitae facilis velit alias magni odio! Minima, maiores?
+                            </p>
+                            <h3 class="section-title"><b class="color-2">Elenco</b></h3>
+                            <ul >
+                                <li><a href="" class="nav-link">Tom Holland</a></li>
+                                <li><a href="" class="nav-link">Zendaya</a></li>
+                                <li><a href="" class="nav-link">Tobey Maguire</a></li>
+                                <li><a href="" class="nav-link">Andrew Garfield</a></li>
+                                <li><a href="" class="nav-link">Marisa Tomei</a></li>
+                                <li><a href="" class="nav-link">Jacob Batalon</a></li>
+                            </ul>
+                            <h3 class="section-title"><b class="color-2">Data de lançamento:</b> 16 de dezembro de 2021</h3>
+                            <h3 class="section-title"><b class="color-2">Bilheteria:</b> 1,916 bilhão USD</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="outros_filmes" class="pt-5 pb-5 color-3">
+            <div class="container color-white">
+                <div class="row">
+                    <h2 class="text-center">
+                        <i class="bi bi-caret-left-fill"></i>
+                        Última Trilogia do <span class="color-2"><b>Homem Aranha</b></span>
+                        <i class="bi bi-caret-right-fill"></i>
+                    </h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <img src="images/eventos/homem_aranha_de_volta_ao_lar.jpeg" alt="" class="d-block w-100 rounded mb-2 mt-5">
+                        <h3 class="mt-4"><span class="color-2">Homem Aranha</span> - <b>De Volta ao Lar</b></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur enim error quis quibusdam tempore quasi ea dolores quo vitae. Culpa excepturi et quis suscipit modi atque sint est adipisci quae.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/HomemAranhaLongeDeCasa.jpg" alt="" class="d-block w-100 rounded mb-2 mt-5">
+                        <h3 class="mt-4"><span class="color-2">Homem Aranha</span> - <b>Longe de Casa</b></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur enim error quis quibusdam tempore quasi ea dolores quo vitae. Culpa excepturi et quis suscipit modi atque sint est adipisci quae.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/HomemAranhaNoWayHome.jpg" alt="" class="d-block w-100 rounded mb-2 mt-5">
+                        <h3 class="mt-4"><span class="color-2">Homem Aranha</span> - <b>No Way Home</b> </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur enim error quis quibusdam tempore quasi ea dolores quo vitae. Culpa excepturi et quis suscipit modi atque sint est adipisci quae.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="color-black color-white">
+            <div class="container">
+                <div class="pt-4 pb-2">
+                    <p class="text-center">
+                        &copy; 2023 Spider Man. Todos os direitos reservados. Ramon Ortiz
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

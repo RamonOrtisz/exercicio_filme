@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar,
+.color-black {
+    background-color: black;
+}
+
+.nav .nav-link.active {
+    background-color: #242424;
+    color: white;
+}
+
+.nav .nav-link, 
+.logo,
+.navbar-brand:hover,
+.color-white{
+    color: rgb(221, 221, 221);
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Teko', sans-serif;
+}
+#sobre-o-filme{
+    background-color: #161616;
+}
+
+.color-2{
+    color: brown;
+}
+
+.color-3{
+    background-color: #242424;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 109px;
+    }
+}
