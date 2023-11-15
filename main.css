@@ -40,6 +40,7 @@ body {
 
 @media (max-width: 767px) {
     .carousel-item img {
-        height: 109px;
+        height: 115px;
     }
+
 }
